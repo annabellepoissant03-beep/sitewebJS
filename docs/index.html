@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <!-- Charge une librairie pour affichage de l'icone du menu burger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <div id="barreb" class="barmenuburger">
+            <button id="burger" class="burger">
+                <!-- affichage de l'icone du menu burger -->
+                <i class="fa fa-bars"></i>
+            </button>
+            
+            <!-- liens -->
+            <div id="liens" class="liens">
+                <a href="#cartes">Cartes</a>
+                <a href="#contact">Contact</a>
+                <a >Inscrivez-vous</a>
+            </div>   
+        </div>
+
+        <div id="bandeauH" class="bandeau"> 
+            <div id="homeH" class="home"><p>Home</p></div>
+            <div  class="cards"><a href="#cartes" class="ancre">Cartes</a></div>
+            <div  class="contact"><a href="#contact" class="ancre">Contact</a></div>
+            <div  class="signin"><p>Inscrivez-vous</p></div>
+            <button class="btn" id="btnMode">Blue mode</button>
+        </div>
+    </header> 
+    <main>
+        <!--iamge de fond d'acceuil-->
+        <div id="muse" class="musee">
+            <img
+            src="musee1.jpeg"
+            alt="image musée"
+            width="100%"
+            >
+        </div id='haut'> 
+        <!--bouton acceuil-->
+        <div id="bouton1" class="getstarted"><span>Commencer</span></div>
+        <div id="titleH" class="title"><p>Collect'Art</p></div>
+        <div id="soustitle" class="soustitre" ><p>Chaque œuvre a sa place dans votre collection.</p></div>
+
+        <div id="bloc1" class="services" ><!--bloc service a gauche-->
+            <div id="bt1" class="service" style="align-self: flex-start"><p>Services</p></div>
+            <div class="textservice"  style="align-self: flex-end; margin-top: 150px;width: 800px;margin-left: 50px;margin-bottom: 180px"><p id="intro">Collec'Art réinvente la façon de vivre et de collectionner l'art.</p>
+            <br> <!--saut de ligne-->
+            
+            <p id="intro1">Notre plateforme vous permet de découvrir, collectionner et partager des cartes numériques ou physiques inspirées des plus grandes œuvres d'art. Que vous soyez amateur, collectionneur ou simple curieux, emportez vos œuvres préférées partout avec vous.</p>
+            <br>
+            <p id="intro2"> Avec Collect'Art, l'art devient accessible, ludique et personnel. Une véritable galerie à portée de main!</p>
+            </div>
+        
+            <div class="louvre" style="align-items:right"> <!--image a droite-->
+            <img id="image"
+            src="louvre.jpg"
+            alt="image"
+            width="60%" style="margin: 40px;"></div>
+        </div>
+        <!--bloc presentation de cartes-->
+        <!--<button onclick="changerImage()">Changer l'image</button>-->
+        <div id="bloc2" class="textecarte" ><p id="cartes">Cartes</p></div>
+        <div id="bloc3" class="imgcards">
+            <div class="joconde">
+                <img 
+                src="joconde.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+            <div class="filleperle">
+                <img
+                src="filleperle.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+            <div class="portrait">
+                <img
+                src="portrait.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+            <div class="adam">
+                <img
+                src="adam.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+            <div class="nuit">
+                <img
+                src="nuit.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+            <div class="sunrise">
+                <img
+                src="sunrise.png"
+                alt="image"
+                width="40%" class="imgover">
+            </div>
+   
+        </div>
+        <div id="bouton2" class="seemore"><span>Voir plus </span><!--mark up a part of a text, or a part of a document.--></div> <!--bouton cartes-->
+    <script src="/javascript/main2.js"></script> 
+</body>
+<footer id="contact">
+<div class="else">
+  <p>Contactez-nous</p>
+</div>
+<div id="basfond" class="lien">
+    <p id="bastexte">Vous voulez voir plus d'oeuvres ?</p>
+    <br>
+    <a href="https://www.louvre.fr/">Cliquez ici vers le site du Louvre</a>
+</div>
+</footer>
+</html>
